@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="100dp"
+        android:src="@drawable/password"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend code"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#F3DC45"
+        android:id="@+id/resend"
+        />
+
+    <com.chaos.view.PinView
+        android:layout_width="wrap_content"
+        style="@style/PinWidget.PinView"
+        android:id="@+id/code_edt"
+        app:itemCount="6"
+        app:lineColor="#F3DC45"
+        android:layout_gravity="center"
+        android:inputType="number"
+        app:itemRadius="6dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#F3DC45"
+        android:layout_gravity="bottom"
+        android:id="@+id/send_btn"
+        android:text="Check"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        />
+</LinearLayout>

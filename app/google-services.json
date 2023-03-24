@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "650052095783",
+    "project_id": "fir-sign-phone-number",
+    "storage_bucket": "fir-sign-phone-number.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650052095783:android:3b4486be1a3ed6b224a302",
+        "android_client_info": {
+          "package_name": "com.example.firebasesignwithphonenumber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650052095783-oddrgfvp7i83b4v8ibpob2s5dshto2p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqtLUp_5UejGovglJDZFQDJU6EEMwoIEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650052095783-oddrgfvp7i83b4v8ibpob2s5dshto2p5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

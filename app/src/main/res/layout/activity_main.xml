@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:background="#FFEB3B"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/document"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/image"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_text_view"
+        android:hint="Phone number"
+        android:layout_margin="15dp"
+        app:endIconMode="clear_text"
+        app:helperTextTextColor="#323232"
+        >
+        <EditText
+            android:id="@+id/phone_number"
+            android:inputType="number"
+            android:text="+998"
+            android:maxLength="13"
+            android:layout_width="match_parent"
+            android:importantForAutofill="no"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#25B0F9"
+        android:id="@+id/send_btn"
+        android:text="Send"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
